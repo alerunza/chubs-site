@@ -1,0 +1,12 @@
+img{
+     max-width: 50%;
+     position: absolute;
+     top: 30px;
+     left: 50%;
+     transform: translateX(-50%);
+}
+
+body{
+     background-color: #1c6e16;
+     overflow: hidden;
+}
