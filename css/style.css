@@ -1,3 +1,6 @@
+*{
+     font-family: 'Luckiest Guy', cursive;
+}
 img{
      max-width: 50%;
      position: absolute;
@@ -9,4 +12,16 @@ img{
 body{
      background-color: #1c6e16;
      overflow: hidden;
+}
+
+.links li{
+     list-style-type: none;
+     font-size: 50px;
+}
+
+.links a{
+     text-decoration: none;
+     color: white;
+     text-shadow: 1px 2px 3px #70ec67;
+     -webkit-text-stroke: 1px rgba(255, 0, 0, 0.26);
 }
