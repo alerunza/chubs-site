@@ -23,7 +23,7 @@ body{
 .links a{
      text-decoration: none;
      color: white;
-     text-shadow: 1px 2px 3px #70ec67;
+     text-shadow: 2px 2px 3px #70ec67;
      -webkit-text-stroke: 1px rgba(255, 0, 0, 0.26);
 }
 
@@ -39,4 +39,15 @@ body{
      right: 0px;
      transform: translateX(-65%);
      top: 50%;
+}
+
+.main{
+     color: white;
+     text-shadow: 2px 2px 3px #70ec67;
+     -webkit-text-stroke: 1px rgba(255, 0, 0, 0.26);
+     position: absolute;
+     font-size: 100px;
+     left: 50%;
+     transform: translateX(-50%);
+     z-index: 1;
 }
