@@ -16,10 +16,35 @@ body{
      overflow: hidden;
 }
 
+a.twitch:hover{
+     color: #A970FF;
+}
+
+a.twitter:hover{
+     color: #1D9BF0;
+}
+
+a.discord:hover{
+     color: #404EED;
+}
+
+a.np:hover{
+     color: #006EFE;
+}
+
+.links{
+     max-width: 100%;
+}
+
 .links li{
      list-style-type: none;
      font-size: 4rem;
      padding: 20px 0 20px 0;
+     transition: transform 0.2s linear;
+}
+
+.links li:hover{
+     transform: scale(1.2);
 }
 
 .links a{
@@ -29,7 +54,6 @@ body{
 }
 
 .links a:hover{
-     color: blue;
      filter: drop-shadow(0 0 0.75rem rgb(98, 68, 235));
 }
 
