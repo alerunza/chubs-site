@@ -24,7 +24,6 @@ body{
      text-decoration: none;
      color: white;
      text-shadow: 2px 2px 3px #70ec67;
-     -webkit-text-stroke: 1px rgba(255, 0, 0, 0.26);
 }
 
 .left{
@@ -44,7 +43,6 @@ body{
 .main{
      color: white;
      text-shadow: 2px 2px 3px #70ec67;
-     -webkit-text-stroke: 1px rgba(255, 0, 0, 0.26);
      position: absolute;
      font-size: 100px;
      left: 50%;
